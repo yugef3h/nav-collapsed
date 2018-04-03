@@ -5599,32 +5599,6 @@
             })
         }
             , {}],
-        3: [function(t, e, n) {
-            "use strict";
-            !function(t, e) {
-                var n = "embedly-platform"
-                    , i = "script";
-                if (!e.getElementById(n)) {
-                    t.embedly = t.embedly || function() {
-                        (t.embedly.q = t.embedly.q || []).push(arguments)
-                    }
-                    ;
-                    var o = e.createElement(i);
-                    o.id = n,
-                        o.async = 1,
-                        o.src = ("https:" === document.location.protocol ? "https" : "http") + "://cdn.embedly.com/widgets/platform.js";
-                    var r = e.getElementsByTagName(i)[0];
-                    r.parentNode.insertBefore(o, r)
-                }
-            }(window, document),
-                embedly("defaults", {
-                    cards: {
-                        key: "099002c222514234b09254cee2149445"
-                    }
-                }),
-                $(document).ready(function() {})
-        }
-            , {}],
         4: [function(t, e, n) {
             "use strict";
             window.$ = window.jQuery = t("jquery"),
